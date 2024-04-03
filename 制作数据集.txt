@@ -1,0 +1,9 @@
+1、运行learn中的Write_SLAM_Obj_Detect,获取检测结果
+	需要修改folder_path = "/home/zhu/dataset/KITTI/color/10/image_2"
+	和f = open('/home/zhu/MYSLAMSYSTEM/obj_detect/color/10data.txt', 'a')
+	这两条路径
+2、运行learn中的Write_association,制作KITTI时间戳
+	需要修改img_path = '/home/zhu/dataset/KITTI/color/00/image_2/'
+	和with open('/home/zhu/dataset/KITTI/color/00/00_info.txt', 'w') as f:
+	这两个路径
+3、
